@@ -1,0 +1,20 @@
+/* 0  0  0  0 */
+/* 4)inline  3)id  2)class  1)element*/
+/* dibaca dari kanan ke kiri */
+
+body {
+	font-family: helvetica;
+}
+
+/*yang terjadi adalah, elemen kedua overriding / timpa nilai elemen pertama*/
+p { color: red; }
+p { color: grey; }
+
+/*elemen berikut tidak terpengaruhi nilai elemen sebelumnya karena id > element*/
+p#p2 { color: salmon; }
+
+/*kelas favorit akan kalah oleh elemen li yang ada didalam ul yang punya id*/
+ul#makanan li { color: salmon; }
+/*.favorit { color: lightskyblue; }*/
+/*solusinya, tambah berat dan buat selectornya lebih spesifik*/
+ul#makanan li.favorit { color: skyblue; }

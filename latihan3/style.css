@@ -1,0 +1,38 @@
+/*awal font-styling*/
+
+/*unshorthand method*/
+/*body {
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 395;
+	font-size: 16px;
+	line-height: 18px;
+	font-family: montserrat, arial, sans-serif;
+}*/
+
+/*shorthand method*/
+body{
+	font :italic normal 395 16px/18px montserrat, arial, sans-serif;
+}
+
+/*akhir font-styling*/
+
+/*awal text-styling*/
+h1 {
+	color: lightskyblue;
+}
+
+p {
+	color: grey;
+	text-align: justify;
+	text-indent: 5px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*akhir text-styling*/

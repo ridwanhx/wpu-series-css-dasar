@@ -1,0 +1,8 @@
+body {
+	font-style: italic;
+	color: lightseagreen;
+	font-family: montserrat, helvetica, sans-serif;
+}
+
+/*memaksa child agar mengikuti nilai property dari parentnya*/
+a { color: inherit; }

@@ -1,0 +1,15 @@
+
+/*implementasi tanpa shorthand*/
+/*body {
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 395;
+	font-size: 16px;
+	line-height: 18px;
+	font-family: arial, verdana, sans-serif;
+}*/
+
+/*implementasi menggunakan teknik shorthand*/
+body {
+	font : italic normal 395 16px/18px montserrat, arial, sans-serif;
+}

@@ -1,0 +1,32 @@
+body {
+	font-family: arial, verdana, sans-serif;
+}
+
+h1,h3 {
+	color: lightseagreen;
+}
+
+h3 {
+	font-style: italic;
+}
+
+ul li a {
+	text-decoration: none;
+	color: salmon;
+}
+
+ol li a {
+	color: lightskyblue;
+}
+
+p a {
+	font-weight: bold;
+}
+
+#pertama {
+	color: grey;
+}
+
+.kedua {
+	color: gold;
+}

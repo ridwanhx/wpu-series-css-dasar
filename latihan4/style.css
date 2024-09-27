@@ -1,0 +1,42 @@
+/*css-background*/
+/*awal font-styling*/
+
+/*unshorthand method*/
+/*body {
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 395;
+	font-size: 16px;
+	line-height: 18px;
+	font-family: montserrat, arial, sans-serif;
+}*/
+
+/*shorthand method*/
+body {
+	/*shorthand*/
+	font :italic normal 395 16px/18px montserrat, arial, sans-serif;
+	background :url(img/dua.jpg) no-repeat bottom right lightskyblue;
+}
+
+/*akhir font-styling
+
+/*awal text-styling*/
+
+h1 {
+	color: lightseagreen;
+}
+
+p {
+	color: grey;
+	text-align: justify;
+	text-indent: 15px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*akhir text-styling

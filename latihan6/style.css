@@ -1,0 +1,54 @@
+awal pseudo yang berhubungan dengan link*/
+/* :link */
+.halo {
+	color: orange;
+}
+
+/* :hover */
+/*mengubah warna menjadi biru langit cerah ketika pointer diarahkan*/
+.halo:hover {
+	color: lightskyblue;
+}
+
+/* :active */
+/*mengubah gaya font menjadi italic ketika elemen di klik*/
+.halo:active {
+	font-style: italic;
+}
+
+/* :visited */
+/*mengubah warna link yang sudah pernah dikunjungi berwarna salmon*/
+.halo:visited {
+	color: salmon;
+}
+/*akhir pseudo yang berhubungan dengan link*/
+
+/*awal pseudo yang berhubungan dengan posisi elemen*/
+
+/*:first-child*/
+li:first-child a {
+	color: lightskyblue;
+}
+
+/*:last-child*/
+li:last-child a {
+	color: orange;
+}
+
+
+/*:nth-child*/
+/*ketika elemen di-klik, elemen pada kelipatan 2 berubah warna*/
+li:nth-child(2n) a:hover {
+	color: orange;
+}
+
+/*part 2*/
+p:first-of-type {
+	color: salmon;
+}
+
+p:last-of-type {
+	color: lightseagreen;
+}
+
+/*akhir pseudo yang berhubungan dengan posisi elemen*/
